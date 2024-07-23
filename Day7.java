@@ -111,7 +111,7 @@ class Folder {
 class Day7 {
     public static void main(String[] args) {
         try {
-            File inputFile = new File("./assets/day7-input.txt");
+            File inputFile = new File("./day7-input.txt");
             Scanner fileScanner = new Scanner(inputFile);
 
             ArrayList<Folder> allFolders = new ArrayList<Folder>();
